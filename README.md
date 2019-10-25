@@ -158,40 +158,44 @@ A|	B|	C|	B AND C|	A OR (B AND C)
 ### a
 NOT (A AND B) = (NOT A) OR (NOT B)
 
-A	B	A AND B	NOT (A AND B)
-0	0	0	1
-1	0	0	1
-0	1	0	1
-1	1	1	0
+A|	B|	A AND B|	NOT (A AND B)
+|-|:-:|:-:|-:|
+0|	0|	0|	1
+1|	0|	0|	1
+0|	1|	0|	1
+1|	1|	1|	0
 
-A	B	NOT A	NOT B	(NOT A) OR (NOT B)
-0	0	1	1	1
-1	0	0	1	1
-0	1	1	0	1
-1	1	0	0	0
+A|	B|	NOT A|	NOT B|	(NOT A) OR (NOT B)
+|-|:-:|:-:|:-:|-:|
+0|	0|	1|	1|	1
+1|	0|	0|	1|	1
+0|	1|	1|	0|	1
+1|  1|	0|	0|	0
 
 ### b
 (A AND B) OR (C AND B) = (A OR C) AND B, where A is type(x) == int, B is x > 7 and C is type(x) == float
 
-A	B	C	A AND B	C AND B	(A AND B) OR (C AND B)
-0	0	0	0	0	0
-1	0	0	0	0	0
-0	1	0	0	0	0
-1	1	0	1	0	1
-0	0	1	0	0	0
-1	0	1	0	0	0
-0	1	1	0	1	1
-1	1	1	1	1	1
+A|	B|	C|	A AND B|	C AND B|	(A AND B) OR (C AND B)
+|-|:-:|:-:|:-:|:-:|-:|
+0|	0|	0|	0|	0|	0
+1|	0|	0|	0|	0|	0
+0|	1|	0|	0|	0|	0
+1|	1|	0|	1|	0|	1
+0|	0|	1|	0|	0|	0
+1|	0|	1|	0|	0|	0
+0|	1|	1|	0|	1|	1
+1|	1|	1|	1|	1|	1
 
-A	B	C	A OR C	(A OR C) AND B
-0	0	0	0	0
-1	0	0	1	0
-0	1	0	0	0
-1	1	0	1	1
-0	0	1	1	0
-1	0	1	1	0
-0	1	1	1	1
-1	1	1	1	1
+A|	B|	C|	A OR C|	(A OR C) AND B
+|-|:-:|:-:|:-:|-:|
+0|	0|	0|	0|	0
+1|	0|	0|	1|	0
+0|	1|	0|	0|	0
+1|	1|	0|	1|	1
+0|	0|	1|	1|	0
+1|	0|	1|	1|	0
+0|	1|	1|	1|	1
+1|	1|	1|	1|	1
 
 ### c
 For the first set of code the program checks to see if x and y are equal to 0,
