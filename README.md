@@ -44,7 +44,7 @@ A|B|	C	|NOT B	|A OR (NOT B)	|A OR C|	(A OR NOT B) AND (A OR C)
 
 
 ### d
-A|	B|	C|	D|	NOT C|	B OR (NOT C)|	NOT (B OR NOT C)|	NOT A|	D AND (NOT A)|	(D AND NOT A) AND (NOT B OR NOT C)|	(D AND (NOT A AND NOT B OR NOT C)| AND A
+A|	B|	C|	D|	NOT C|	B OR (NOT C)|	NOT (B OR NOT C)|	NOT A|	D AND (NOT A)|	(D AND NOT A) AND (NOT B OR NOT C)|	(D AND (NOT A AND NOT B OR NOT C) AND A
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|-:|
 0|	0	|0	|0	|1	|1	|0	|1	|0	|0	|0
 1|	0	|0	|0	|1	|1	|0	|0	|0	|0	|0
