@@ -65,14 +65,15 @@ A|	B|	C|	D|	NOT C|	B OR (NOT C)|	NOT (B OR NOT C)|	NOT A|	D AND (NOT A)|	(D AND 
 
 
 ## Question 2
-All images for this question are in the microsoft word document called "worksheet 4"
+
 ### a
-
+![one](2a.png)
 ### b
-
+![two](2b.png)
 ### c
-
+![three](2c.png)
 ### d
+![four](2d.png)
 
 ## Question 3
 
