@@ -5,15 +5,15 @@ Please edit this README.md file with your answers to the worksheet questions.
 ## Question 1
 
 ### a
-A	B	C	A AND B	NOT C	(A AND B) AND (NOT C)
-0	0	0	0	1	0
-1	0	0	0	1	0
-0	1	0	0	1	0
-1	1	0	1	1	1
-0	0	1	0	0	0
-1	0	1	0	0	0
-0	1	1	0	0	0
-1	1	1	1	0	0
+A|B|C|	A AND B|	NOT C	|(A AND B) AND (NOT C)
+0|0|0|	0|	1|	0
+1|0|0|	0|	1|	0
+0|1|0|	0|	1|	0
+1|1|0|	1|	1|	1
+0|0|1|	0|	0|	0
+1|0|1|	0|	0|	0
+0|1|1|	0|	0|  0
+1|1|1|	1|	0|  0
 
 
 ### b
@@ -182,11 +182,11 @@ A	B	C	A OR C	(A OR C) AND B
 
 ### c
 For the first set of code the program checks to see if x and y are equal to 0,
-if both are then the function ìdo_somethingî is activated, if x or y is not 0
-then the program prints ìDo nothingî. Where as in the second set of code the
+if both are then the function ‚Äúdo_something‚Äù is activated, if x or y is not 0
+then the program prints ‚ÄúDo nothing‚Äù. Where as in the second set of code the
 program checks if x and y are not 0, if they are not then the program prints
-ìDo nothingî, if x and y are both 0 then the program actives the function
-ìdo_somethingî. So both programs active the same task but they both go about
+‚ÄúDo nothing‚Äù, if x and y are both 0 then the program actives the function
+‚Äúdo_something‚Äù. So both programs active the same task but they both go about
 checking the conditions in different ways the first program checks for the
 condition first by using an if statement while the second program checks for
 the inverse of the condition by using an else statement.
