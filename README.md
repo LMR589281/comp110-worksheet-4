@@ -78,17 +78,19 @@ A|	B|	C|	D|	NOT C|	B OR (NOT C)|	NOT (B OR NOT C)|	NOT A|	D AND (NOT A)|	(D AND 
 ## Question 3
 
 ### a
-A	B	A OR B	NOT (A OR B)
-0	0	0	1
-1	0	1	0
-0	1	1	0
-1	1	1	0
+A|	B|	A OR B|	NOT (A OR B)
+|-|:-:|:-:|-:|
+0	|0|	0|	1
+1	|0|	1|0
+0	|1|	1|	0
+1	|1|	1|	0
 
-A	B	NOT A	NOT B	(NOT A) AND (NOT B)
-0	0	1	1	1
-1	0	0	1	0
-0	1	1	0	0
-1	1	0	0	0
+A|	B|	NOT A|	NOT B|	(NOT A) AND (NOT B)
+|-|:-:|:-:|:-:|-:|
+0|	0|	1|	1|	1
+1|	0|	0|	1|	0
+0|	1|  1|	0|	0
+1|	1|	0|	0|	0
 
 ### b
 A	B	A AND B	NOT (A AND B)
